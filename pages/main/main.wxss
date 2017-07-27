@@ -64,3 +64,15 @@ font-family: PingFangSC-Medium;
   width:100%;
   background-color:#ECEFF2
 }
+
+.picker{
+ align-items:center;
+ justify-content:center;
+ display:flex;
+ flex:1;
+ color:#666666
+}
+
+.select{
+   color:#EA576A
+}
