@@ -37,16 +37,16 @@
   <view class="line" />
   <picker-view indicator-style="height: 40px;" indicator-class="select" style="width: 100%; height: 200px;" value="{{value}}" bindchange="bindChange">
     <picker-view-column>
-      <view wx:for="{{weights}}" style="line-height: 40px;" class="picker">{{item}}</view>
+      <view wx:key="weights" wx:for="{{weights}}" style="line-height: 40px;" class="picker">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view wx:for="{{colors}}" style="line-height: 40px" class="picker">{{item}}</view>
+      <view wx:key="colors" wx:for="{{colors}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view wx:for="{{clarity}}" style="line-height: 40px" class="picker">{{item}}</view>
+      <view wx:key="clarity" wx:for="{{clarity}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view wx:for="{{cuts}}" style="line-height: 40px" class="picker">{{item}}</view>
+      <view wx:key="cuts" wx:for="{{cuts}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
   </picker-view>
     <view class="line" />
@@ -68,14 +68,15 @@
   <text class='btnTxt'>纯钻全球发布&预定</text>
   </view>
 
-  <view class="viewTab3">
-   <text class="txtInfo">-详细了解纯钻5C</text>
+  <view class="viewTab3" bindtap="bindHidden">
+   <text class="txtInfo">{{hidden?'+':'-'}}详细了解纯钻5C</text>
 
    <view class="viewH"/>
    <view class="viewH1"/>
+  </view>
 
-
-
+  <view class="{{hidden?'hide':''}}">
+   <image src="../../asserts/5c.png"/>
   </view>
 
 </view>
