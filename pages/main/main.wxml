@@ -51,5 +51,31 @@
   </picker-view>
     <view class="line" />
 
+   <view class="viewTxt1">
+   <text class="lbRed">*</text>
+   <text class="lbTxt">均为增选纯天然.高品质钻石，带GIA证书，3EX完美切工，无荧光</text>
+    </view>
+
+     <view class="viewTxt2">
+       <text class="lbRed">*</text>
+       <text class="lbTxt">若实际克拉数在两个数之间，则基于较小克拉数的行情计算价格</text>
+        </view>
+
+ <text class="txtCount">当前全球纯钻库总量：50948颗</text>
+
+
+  <view class="btnRelease">
+  <text class='btnTxt'>纯钻全球发布&预定</text>
+  </view>
+
+  <view class="viewTab3">
+   <text class="txtInfo">-详细了解纯钻5C</text>
+
+   <view class="viewH"/>
+   <view class="viewH1"/>
+
+
+
+  </view>
 
 </view>
