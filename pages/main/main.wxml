@@ -1,0 +1,9 @@
+<!--main.wxml-->
+<view class="main-page">
+
+  <view class="main-top">
+          <text class="chunzuan">全球纯钻实时行情</text>
+          <text class="price">100000</text>
+  </view>
+
+</view>

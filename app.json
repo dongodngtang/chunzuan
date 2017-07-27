@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA576A",
+    "navigationBarTitleText": "全球纯钻行情",
+    "navigationBarTextStyle": "white"
+  }
+}
