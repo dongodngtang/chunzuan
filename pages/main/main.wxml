@@ -2,8 +2,40 @@
 <view class="main-page">
 
   <view class="main-top">
-          <text class="chunzuan">全球纯钻实时行情</text>
-          <text class="price">100000</text>
+    <text class="chunzuan">全球纯钻实时行情</text>
+    <view class="viewPrice">
+      <text class="rmb">¥</text>
+      <text class="price">100000</text>
+    </view>
+
   </view>
+
+  <view class="viewTable">
+    <view class="viewTab">
+      <text class="tab">重量</text>
+    </view>
+
+    <view class="viewLine" />
+
+
+    <view class="viewTab">
+      <text class="tab">颜色</text>
+    </view>
+
+    <view class="viewLine" />
+    <view class="viewTab">
+      <text class="tab">净度</text>
+    </view>
+
+    <view class="viewLine" />
+    <view class="viewTab">
+      <text class="tab">切工</text>
+    </view>
+
+  </view>
+
+  <view class="line"/>
+
+  
 
 </view>
