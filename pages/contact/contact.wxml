@@ -1,0 +1,4 @@
+<!--contact.wxml-->
+<view class="contact">
+<image class="imgContact" src="../../asserts/release.png" mode="scaleToFill"/>
+</view>

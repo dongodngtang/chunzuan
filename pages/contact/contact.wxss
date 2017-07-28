@@ -1,0 +1,11 @@
+/* contact.wxss */
+.contact{
+  display: flex;
+  flex: 1;
+}
+
+.imgContact{
+  height: 100vh;
+  width: 100%;
+}
+

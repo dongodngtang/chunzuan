@@ -26,14 +26,14 @@ Page({
         cuts: cuts,
         value: [2, 1, 2, 0],
         hidden: false,
-        price:''
+        price: ''
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-      this.postPrice(this.data.value);
+        this.postPrice(this.data.value);
     },
 
     bindHidden: function () {
@@ -42,11 +42,15 @@ Page({
             hidden: !that.data.hidden
         })
     },
-
+    btnRelease: function () {
+        wx.navigateTo({
+            url: "../contact/contact"
+        })
+    },
     bindChange: function (e) {
-      console.log(e.detail.value)
-      let arr = e.detail.value;
-      this.postPrice(arr);
+        console.log(e.detail.value);
+        var arr = e.detail.value;
+        this.postPrice(arr);
     },
     /**
      * 生命周期函数--监听页面初次渲染完成
@@ -96,33 +100,33 @@ Page({
     onShareAppMessage: function () {
 
     },
-    postPrice:function(arr){
+    postPrice: function (arr) {
 
-    
-      var that = this;
-      let weight = weights[arr[0]]
-      let color = colors[arr[1]]
-      let clarity = claritys[arr[2]]
-      let cut = cuts[arr[3]]
 
-      wx.request({
-        url: 'https://www.ggehk.com/touziPass/getReportPrice.html', //仅为示例，并非真实的接口地址
-        data: {
-          'cut': cut,
-          'weight': weight,
-          'color': color,
-          'clarity': clarity
-        },
-        method: 'POST',
-        header: {
-          'content-type': 'application/x-www-form-urlencoded'
-        },
-        success: function (res) {
-          if (res.data.code === 200)
-          that.setData({
-            price: res.data.data
-          })
-        }
-      })
+        var that = this;
+        var weight = weights[arr[0]];
+        var color = colors[arr[1]];
+        var clarity = claritys[arr[2]];
+        var cut = cuts[arr[3]];
+
+        wx.request({
+            url: 'https://www.ggehk.com/touziPass/getReportPrice.html', //仅为示例，并非真实的接口地址
+            data: {
+                'cut': cut,
+                'weight': weight,
+                'color': color,
+                'clarity': clarity
+            },
+            method: 'POST',
+            header: {
+                'content-type': 'application/x-www-form-urlencoded'
+            },
+            success: function (res) {
+                if (res.data.code === 200)
+                    that.setData({
+                        price: res.data.data
+                    })
+            }
+        })
     }
 })

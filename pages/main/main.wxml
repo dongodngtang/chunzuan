@@ -64,7 +64,7 @@
  <text class="txtCount">当前全球纯钻库总量：50948颗</text>
 
 
-  <view class="btnRelease">
+  <view class="btnRelease" bindtap="btnRelease">
   <text class='btnTxt'>纯钻全球发布&预定</text>
   </view>
 
