@@ -5,7 +5,7 @@
     <text class="chunzuan">全球纯钻实时行情</text>
     <view class="viewPrice">
       <text class="rmb">¥</text>
-      <text class="price">100000</text>
+      <text class="price">{{price}}</text>
     </view>
 
   </view>
@@ -43,7 +43,7 @@
       <view wx:key="colors" wx:for="{{colors}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
-      <view wx:key="clarity" wx:for="{{clarity}}" style="line-height: 40px" class="picker">{{item}}</view>
+      <view wx:key="claritys" wx:for="{{claritys}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
     <picker-view-column>
       <view wx:key="cuts" wx:for="{{cuts}}" style="line-height: 40px" class="picker">{{item}}</view>
@@ -76,7 +76,8 @@
   </view>
 
   <view class="{{hidden?'hide':''}}">
-   <image src="../../asserts/5c.png"/>
+   <image class="img5C"
+   src="../../asserts/5c.png"/>
   </view>
 
 </view>

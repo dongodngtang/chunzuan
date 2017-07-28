@@ -10,8 +10,9 @@ const weightStr = ['0.50', '0.55', '0.60', '0.65', '0.70', '0.75', '0.80', '0.85
     '3.05', '3.10', '3.15', '3.20', '3.25', '3.30', '3.35', '3.40', '3.45', '3.50', '3.55', '3.60', '3.65', '3.70', '3.75', '3.80', '3.85', '3.90', '3.95', '4.00'];
 
 const colors = ['D', 'E', 'F', 'G', 'H', 'I'];
-const clarity = ['IF', 'VVS1', 'VVS2', 'VS1', 'VS2'];
+const claritys = ['IF', 'VVS1', 'VVS2', 'VS1', 'VS2'];
 const cuts = ['3EX'];
+
 
 Page({
 
@@ -21,17 +22,18 @@ Page({
     data: {
         weights: weightStr,
         colors: colors,
-        clarity: clarity,
+        claritys: claritys,
         cuts: cuts,
         value: [2, 1, 2, 0],
-        hidden: false
+        hidden: false,
+        price:''
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+      this.postPrice(this.data.value);
     },
 
     bindHidden: function () {
@@ -41,6 +43,11 @@ Page({
         })
     },
 
+    bindChange: function (e) {
+      console.log(e.detail.value)
+      let arr = e.detail.value;
+      this.postPrice(arr);
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
@@ -88,5 +95,34 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+    postPrice:function(arr){
+
+    
+      var that = this;
+      let weight = weights[arr[0]]
+      let color = colors[arr[1]]
+      let clarity = claritys[arr[2]]
+      let cut = cuts[arr[3]]
+
+      wx.request({
+        url: 'https://www.ggehk.com/touziPass/getReportPrice.html', //仅为示例，并非真实的接口地址
+        data: {
+          'cut': cut,
+          'weight': weight,
+          'color': color,
+          'clarity': clarity
+        },
+        method: 'POST',
+        header: {
+          'content-type': 'application/x-www-form-urlencoded'
+        },
+        success: function (res) {
+          if (res.data.code === 200)
+          that.setData({
+            price: res.data.data
+          })
+        }
+      })
     }
 })
