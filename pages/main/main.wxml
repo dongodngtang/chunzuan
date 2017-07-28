@@ -4,7 +4,7 @@
   <view class="main-top">
     <text class="chunzuan">全球纯钻实时行情</text>
     <view class="viewPrice">
-      <text class="rmb">¥</text>
+      <text class="rmb"></text>
       <text class="price">{{price}}</text>
     </view>
 

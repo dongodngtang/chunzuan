@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,12 @@
         <entry file="file://$PROJECT_DIR$/pages/main/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-              <folding />
+              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+                <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+                <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -467,7 +470,7 @@
       <workItem from="1501222359940" duration="791000" />
       <workItem from="1501223159166" duration="10000" />
       <workItem from="1501223212187" duration="192000" />
-      <workItem from="1501225900929" duration="1155000" />
+      <workItem from="1501225900929" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -511,11 +514,25 @@
       <option name="project" value="LOCAL" />
       <updated>1501225915159</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="小程序开发完成">
+      <created>1501228201131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1501228201131</updated>
+    </task>
+    <task id="LOCAL-00008" summary="小程序开发完成">
+      <created>1501228213628</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1501228213628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14369000" />
+    <option name="totallyTimeSpent" value="14592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1958" y="23" width="1820" height="902" extended-state="0" />
@@ -526,7 +543,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24949832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25154895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -543,6 +560,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -553,7 +596,8 @@
     <MESSAGE value="发布按钮" />
     <MESSAGE value="显示隐藏" />
     <MESSAGE value="数据访问" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据访问" />
+    <MESSAGE value="小程序开发完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="小程序开发完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,7 +624,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,7 +668,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -660,7 +712,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -700,7 +756,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +776,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -784,7 +848,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,8 +978,12 @@
     <entry file="file://$PROJECT_DIR$/pages/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding />
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <marker date="1501228638000" expanded="true" signature="27:96" ph="[...]" />
+            <marker date="1501228638000" expanded="true" signature="3364:3367" ph="{...}" />
+            <marker date="1501228638000" expanded="true" signature="3364:3369" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
