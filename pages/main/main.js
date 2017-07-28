@@ -122,6 +122,7 @@ Page({
                 'content-type': 'application/x-www-form-urlencoded'
             },
             success: function (res) {
+              console.log(res)
                 if (res.data.code === 200)
                     that.setData({
                         price: res.data.data
