@@ -69,7 +69,7 @@
   </view>
 
   <view class="viewTab3" bindtap="bindHidden">
-   <text class="txtInfo">{{hidden?'+':'-'}}详细了解钻石5C</text>
+   <text class="txtInfo">{{hidden?'+':'-'}}详细了解纯钻5C</text>
 
    <view class="viewH"/>
    <view class="viewH1"/>
