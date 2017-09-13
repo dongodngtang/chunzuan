@@ -1,4 +1,4 @@
 <!--contact.wxml-->
 <view class="contact">
-<image class="imgContact" src="../../asserts/release.png" mode="aspectFit"/>
+<image class="imgContact" bindtap="previewImage" src="{{bgImage}}" data-src="{{bgImage}}" mode="aspectFit"/>
 </view>
