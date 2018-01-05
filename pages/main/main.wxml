@@ -65,7 +65,7 @@
 
 
   <view class="btnRelease" bindtap="btnRelease">
-  <text class='btnTxt'>纯钻全球发布&预定</text>
+  <text class='btnTxt'>咨询</text>
   </view>
 
   <view class="viewTab3" bindtap="bindHidden">
