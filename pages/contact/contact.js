@@ -64,8 +64,8 @@ Page({
 
     },
     previewImage: function (e) {
-        var current = e.target.dataset.src;
-        console.log(e)
+        var current = e.target.dataset.src+`?${new Date()}`;
+        console.log(current)
         wx.previewImage({
             urls: [current]
         })

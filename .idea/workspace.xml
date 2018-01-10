@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/main/main.wxml" afterPath="$PROJECT_DIR$/pages/main/main.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contact/contact.js" afterPath="$PROJECT_DIR$/pages/contact/contact.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +17,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/main/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="0">
               <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -31,7 +31,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
+              <folding>
+                <marker date="1515553166000" expanded="true" signature="796:958" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,21 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/contact/contact.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.wxss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/main/main.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -179,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +194,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,7 +402,8 @@
       <workItem from="1505267181093" duration="2856000" />
       <workItem from="1505443073416" duration="273000" />
       <workItem from="1506563816039" duration="1499000" />
-      <workItem from="1515138564481" duration="497000" />
+      <workItem from="1515138564481" duration="538000" />
+      <workItem from="1515553247197" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -496,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506564757899</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="按钮修改">
+      <created>1515140199765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1515140199765</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20431000" />
+    <option name="totallyTimeSpent" value="20476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2020" y="53" width="1820" height="902" extended-state="0" />
@@ -570,7 +570,8 @@
     <MESSAGE value="网络图片" />
     <MESSAGE value="选择器颜色" />
     <MESSAGE value="选择器精简" />
-    <option name="LAST_COMMIT_MESSAGE" value="选择器精简" />
+    <MESSAGE value="按钮修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="按钮修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -899,7 +900,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1515553166000" expanded="true" signature="796:958" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -915,14 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact/contact.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -945,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="0">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -957,6 +952,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact/contact.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
