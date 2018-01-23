@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/channel/channel"
   ],
   "window": {
     "backgroundTextStyle": "light",

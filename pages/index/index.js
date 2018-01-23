@@ -49,7 +49,7 @@ Page({
   },
   btnRelease: function () {
     wx.navigateTo({
-      url: "../contact/contact"
+      url: "../channel/channel"
     })
   },
   bindChange: function (e) {
