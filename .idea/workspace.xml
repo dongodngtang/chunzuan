@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/http.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/service.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.js" afterPath="$PROJECT_DIR$/pages/channel/channel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxml" afterPath="$PROJECT_DIR$/pages/channel/channel.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxss" afterPath="$PROJECT_DIR$/pages/channel/channel.wxss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,8 +100,8 @@
       <file leaf-file-name="channel.wxss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -109,11 +110,11 @@
       <file leaf-file-name="channel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1516687978000" expanded="true" signature="56:1232" ph="{...}" />
-                <marker date="1516687978000" expanded="true" signature="224:227" ph="{...}" />
+                <marker date="1516702217000" expanded="true" signature="1343:1346" ph="{...}" />
+                <marker date="1516702217000" expanded="true" signature="1343:1348" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -192,12 +193,28 @@
               <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
               <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,7 +429,8 @@
       <workItem from="1515553247197" duration="359000" />
       <workItem from="1515982387410" duration="69000" />
       <workItem from="1516672959403" duration="4900000" />
-      <workItem from="1516688104201" duration="7000" />
+      <workItem from="1516688104201" duration="43000" />
+      <workItem from="1516702327467" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -540,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516678682358</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加渠道商转发">
+      <created>1516688125390</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516688125390</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25807000" />
+    <option name="totallyTimeSpent" value="25854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="35" width="1820" height="902" extended-state="0" />
@@ -620,7 +645,8 @@
     <MESSAGE value="首页调整OK2" />
     <MESSAGE value="添加渠道商" />
     <MESSAGE value="添加渠道商1" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加渠道商1" />
+    <MESSAGE value="添加渠道商转发" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加渠道商转发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -787,11 +813,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1516687978000" expanded="true" signature="56:1232" ph="{...}" />
-            <marker date="1516687978000" expanded="true" signature="224:227" ph="{...}" />
+            <marker date="1516702217000" expanded="true" signature="1343:1346" ph="{...}" />
+            <marker date="1516702217000" expanded="true" signature="1343:1348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -838,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
