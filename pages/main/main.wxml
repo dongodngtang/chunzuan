@@ -49,36 +49,35 @@
       <view wx:key="cuts" wx:for="{{cuts}}" style="line-height: 40px" class="picker">{{item}}</view>
     </picker-view-column>
   </picker-view>
-    <view class="line" />
+  <view class="line" />
 
-   <view class="viewTxt1">
-   <text class="lbRed">*</text>
-   <text class="lbTxt">均为增选纯天然.高品质钻石，带GIA证书，3EX完美切工，无荧光</text>
-    </view>
 
-     <view class="viewTxt2">
-       <text class="lbRed">*</text>
-       <text class="lbTxt">若实际克拉数在两个数之间，则基于较小克拉数的行情计算价格</text>
-        </view>
+  <text class="lbTxt">*本行情代表全珠甄选的天然极品裸钻的最优价格，实时更新；</text>
 
- <text class="txtCount">当前全球纯钻库总量：50948颗</text>
+  <text class="lbTxt">*每颗钻石均带GIA证书，3EX完美切工，无荧光；</text>
+
+  <text class="lbTxt">*行情价格代表选定钻石所对应重量的税前价格，非每克拉单价</text>
+
 
 
   <view class="btnRelease" bindtap="btnRelease">
-  <text class='btnTxt'>咨询</text>
+    <text class='btnTxt'>咨询</text>
   </view>
 
   <view class="viewTab3" bindtap="bindHidden">
-   <text class="txtInfo">{{hidden?'+':'-'}}详细了解纯钻5C</text>
-
-   <view class="viewH"/>
-   <view class="viewH1"/>
+  <text class="txtInfo">爱情资产，极品纯钻 {{hidden?'+':'-'}}</text>
+   
+    <view class="viewH1" />
   </view>
 
   <view class="{{hidden?'hide':''}}">
-   <image class="img5C"
-   mode='aspectFit'
-   src="../../asserts/5c.png"/>
+    <view class="img5C">
+      <image class='img-banner2' mode="widthFix" src="/asserts/home_3.png" />
+      <image class='img-banner2' mode="widthFix" src="/asserts/home_2.png" />
+      <image class='img-banner2' style="margin-bottom:20px;" mode="widthFix" src="/asserts/home_1.png" />
+    </view>
+
+
   </view>
 
 </view>

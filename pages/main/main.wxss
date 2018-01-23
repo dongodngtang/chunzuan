@@ -44,7 +44,7 @@
 }
 
 .tab {
-  font-family: .PingFangSC-Regular;
+  font-family: PingFangSC-Regular;
   font-size: 14px;
   color: #333;
 }
@@ -87,7 +87,9 @@
 
 .lbTxt {
   color: #3f3f3f;
-  font-size: 10px;
+  font-size: 12px;
+  margin-top: 13px;
+  margin-left: 18px;
 }
 
 .viewTxt1 {
@@ -120,7 +122,8 @@
   background-color: #ea576a;
   align-items: center;
   justify-content: center;
-  align-self:center
+  align-self:center;
+  margin-top: 30px;
 }
 
 .btnTxt {
@@ -129,7 +132,7 @@
 }
 
 .txtInfo{
-  font-family: .PingFangSC-Regular;
+  font-family: PingFangSC-Regular;
   font-size: 14px;
   color: #333333;
 }
@@ -143,9 +146,11 @@
 
 .viewH1{
   background:#ECEFF2;
-  height:2px;
-  width:90%;
+  height:1px;
+  width:35%;
   align-self:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .viewTab3 {
@@ -162,6 +167,18 @@
 }
 
 .img5C{
-  align-self:center;
-  margin-left:15px
+  align-items:center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.img-banner1{
+  width:100%;
+}
+
+.img-banner2{
+  width:90%;
+  margin-top: 15px;
+
 }
