@@ -1,2 +1,14 @@
 <!--pages/channel.wxml-->
-<text>pages/channel.wxml</text>
+<view>
+
+<view class='channel'>
+<image class='avatar' src="https://upload.jianshu.io/users/upload_avatars/2158535/42bb2819-465c-45cf-b619-7ab0ea450478.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"></image>
+
+<view>
+  <view class='item' wx:for="{{infos}}">
+  <text class='txt-name'>渠道商{{item}}</text>
+  </view>
+</view>
+</view>
+  
+</view>

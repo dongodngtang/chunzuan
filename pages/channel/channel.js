@@ -8,7 +8,8 @@ Page({
      * 页面的初始数据
      */
     data: {
-        user_info: {}
+        user_info: {},
+        infos:[1,2,4]
     },
 
     /**
