@@ -2,7 +2,8 @@
 
 .channel{
    display: flex;
-   align-items: center
+   align-items: center;
+   margin-top: 20px;
 }
 
 .avatar{
@@ -25,6 +26,13 @@
    border-bottom-color: #ECEFF2;
    border-bottom-width: 1px;
    border-bottom-style: solid;
-   flex:1;
    
+}
+
+.btn-share{
+  width: 90%;
+  background: #ea576a;
+  margin-top: 60px;
+  color: white;
+  border-radius: 2px;
 }

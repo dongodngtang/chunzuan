@@ -17,55 +17,42 @@ Page({
      */
     onLoad: function (options) {
 
+      wx.login({
+        success: function (loginCode) {
+          var appid = 'wx33013d83315f3550'; //填写微信小程序appid  
+          var secret = '4a8991030ecb5d08c37637647fe718c3'; //填写微信小程序secret  
+
+          //调用request请求api转换登录凭证  
+          wx.request({
+            url: 'https://api.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + secret + '&grant_type=authorization_code&js_code=' + loginCode.code,
+            header: {
+              'content-type': 'application/json'
+            },
+            success: function (res) {
+              console.log(res.data) //获取openid  
+            }
+          })
+        }
+      })
 
     },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide: function () {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
-
-    },
-
     /**
      * 用户点击右上角分享
      */
-    onShareAppMessage: function () {
-
+    onShareAppMessage: function (res) {
+      return {
+        title: '自定义转发标题',
+        path: '/pages/channel/cannel',
+        success: function (res) {
+          // 转发成功
+        },
+        fail: function (res) {
+          // 转发失败
+        }
+      }
+    
+    },
+    btnShare:function(e){
+      this.onShareAppMessage(e);
     }
 })
