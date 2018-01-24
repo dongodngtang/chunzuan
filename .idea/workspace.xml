@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/http.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/service.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/servies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.js" afterPath="$PROJECT_DIR$/pages/channel/channel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxml" afterPath="$PROJECT_DIR$/pages/channel/channel.wxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxss" afterPath="$PROJECT_DIR$/pages/channel/channel.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/http.js" afterPath="$PROJECT_DIR$/utils/http.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +22,11 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="162">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <marker date="1516765058000" expanded="true" signature="505:515" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -100,8 +104,8 @@
       <file leaf-file-name="channel.wxss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="180">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -110,11 +114,14 @@
       <file leaf-file-name="channel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <marker date="1516702217000" expanded="true" signature="1343:1346" ph="{...}" />
-                <marker date="1516702217000" expanded="true" signature="1343:1348" ph="{...}" />
+                <marker date="1516765058000" expanded="true" signature="814:932" ph="{&quot;title&quot;: '自定义转发标题'...}" />
+                <marker date="1516765058000" expanded="true" signature="814:937" ph="{...}" />
+                <marker date="1516765058000" expanded="true" signature="814:1002" ph="{...}" />
+                <marker date="1516765058000" expanded="true" signature="964:1000" ph="{...}" />
+                <marker date="1516765058000" expanded="true" signature="997:1000" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -186,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,13 +215,24 @@
             <path>
               <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
               <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chunzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chunzuan" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -430,7 +449,8 @@
       <workItem from="1515982387410" duration="69000" />
       <workItem from="1516672959403" duration="4900000" />
       <workItem from="1516688104201" duration="43000" />
-      <workItem from="1516702327467" duration="11000" />
+      <workItem from="1516702327467" duration="174000" />
+      <workItem from="1516765142157" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -565,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516688125390</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="数据接通">
+      <created>1516702353100</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516702353101</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25854000" />
+    <option name="totallyTimeSpent" value="26053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="91" y="35" width="1820" height="902" extended-state="0" />
@@ -646,7 +673,8 @@
     <MESSAGE value="添加渠道商" />
     <MESSAGE value="添加渠道商1" />
     <MESSAGE value="添加渠道商转发" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加渠道商转发" />
+    <MESSAGE value="数据接通" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据接通" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,9 +817,11 @@
     <entry file="file://$PROJECT_DIR$/pages/index/main.wxss" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1516765058000" expanded="true" signature="505:515" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,11 +843,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1516702217000" expanded="true" signature="1343:1346" ph="{...}" />
-            <marker date="1516702217000" expanded="true" signature="1343:1348" ph="{...}" />
+            <marker date="1516765058000" expanded="true" signature="814:932" ph="{&quot;title&quot;: '自定义转发标题'...}" />
+            <marker date="1516765058000" expanded="true" signature="814:937" ph="{...}" />
+            <marker date="1516765058000" expanded="true" signature="814:1002" ph="{...}" />
+            <marker date="1516765058000" expanded="true" signature="964:1000" ph="{...}" />
+            <marker date="1516765058000" expanded="true" signature="997:1000" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,7 +866,7 @@
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -864,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>

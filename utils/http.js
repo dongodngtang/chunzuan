@@ -1,6 +1,5 @@
 import api from './api.js'
 
-
 export function get(url,resolve,reject,params={}){
   console.log('http_url:'+url,'params:'+JSON.stringify(params))
   wx.request({

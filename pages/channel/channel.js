@@ -1,7 +1,7 @@
 // pages/channel.js
-
 import * as http from '../../utils/http.js'
 import api from '../../utils/api.js'
+var appInstance = getApp()
 //获取应用实例
 const app = getApp()
 Page({
@@ -10,42 +10,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-    user_info: {},
-    infos: [1, 2, 4]
+    channleInfo:{},
+    json:'sdf'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.getUserInfo({
-      success: function (res) {
-        wx.login({
-          success: function (loginCode) {
 
-            console.log('登录code',loginCode)
-            const {userInfo} = res;
-            const { city, country, province, avatarUrl, nickName} = userInfo;
-            let adr = country+' '+province+' '+city;
-            let params = {
-              wxImg: avatarUrl,
-              wxNickname: nickName,
-              address:adr,
-              userCode: loginCode.code,
-              channelId: 1
-            }
-
-            http.get(api.channel_bind_user, data => {
-              console.log(data)
-            }, err => {
-              console.log(err)
-            },params)
-          }
-        })
+    let params = appInstance.globalData.userInfo;
+    http.get(api.channel_bind_user, data => {
+      console.log(data.data)
+      if(data.data.code === 0){
+        let channleInfo = data.data.data;
+        console.log(channleInfo)
+        this.setData({ channleInfo: channleInfo})
       }
-    })
+     
 
 
+    }, err => {
+      console.log(err)
+    }, params)
 
 
   },
@@ -55,7 +42,7 @@ Page({
   onShareAppMessage: function (res) {
     return {
       title: '自定义转发标题',
-      path: '/pages/channel/cannel',
+      path: '/pages/channel/channel?channelId=1',
       success: function (res) {
         // 转发成功
       },

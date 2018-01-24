@@ -12,6 +12,7 @@
   border-radius: 38px;
   margin-left: 15px;
   margin-right: 15px;
+  background: #ECEFF2;
 }
 
 .txt-name{
@@ -20,13 +21,13 @@
 }
 
 .item{
-   height: 40px;
    display: flex;
    align-items: center;
    border-bottom-color: #ECEFF2;
    border-bottom-width: 1px;
    border-bottom-style: solid;
-   
+   padding-top: 15px;
+   padding-bottom: 15px;
 }
 
 .btn-share{
