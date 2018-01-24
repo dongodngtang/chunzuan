@@ -14,7 +14,7 @@ App({
     } else {
       //调用登录接口
       getLoginInfo(data=>{
-        console.log(data)
+        typeof cb == "function" && cb(data)
         that.globalData.userInfo = data;
       })
     }

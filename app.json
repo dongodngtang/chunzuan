@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/contact/contact",
     "pages/channel/channel"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

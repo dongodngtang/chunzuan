@@ -10,14 +10,14 @@
 //   '3.05', '3.10', '3.15', '3.20', '3.25', '3.30', '3.35', '3.40', '3.45', '3.50', '3.55', '3.60', '3.65', '3.70', '3.75', '3.80', '3.85', '3.90', '3.95', '4.00'];
 
 
-const weights = [0.5,0.8,1,1.5,2,3,4];
+const weights = [0.5, 0.8, 1, 1.5, 2, 3, 4];
 
-const weightStr = ['0.5','0.8','1','1.5','2','3','4'];
+const weightStr = ['0.5', '0.8', '1', '1.5', '2', '3', '4'];
 
 const colors = ['D', 'E', 'F', 'G', 'H', 'I'];
 const claritys = ['IF', 'VVS1', 'VVS2', 'VS1', 'VS2'];
 const cuts = ['3EX'];
-
+var appInstance = getApp();
 
 Page({
 
@@ -48,9 +48,11 @@ Page({
     })
   },
   btnRelease: function () {
-    wx.navigateTo({
-      url: "../channel/channel"
-    })
+    let toChannel = appInstance.globalData.userInfo != null;
+      wx.navigateTo({
+        url: toChannel?"../channel/channel":"../contact/contact"
+      })
+      
   },
   bindChange: function (e) {
     console.log(e.detail.value);
@@ -130,7 +132,7 @@ Page({
         console.log(res)
         if (res.data.code === 200)
           that.setData({
-            price: that.formatMoney(''+res.data.data)
+            price: that.formatMoney('' + res.data.data)
           })
       }
     })

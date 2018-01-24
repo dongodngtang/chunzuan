@@ -18,7 +18,18 @@ export function getLoginInfo(cb){
             userCode: loginCode.code,
             channelId:1
           }
-          typeof cb == "function" && cb(params)
+          http.get(api.channel_bind_user, data => {
+            console.log(data.data)
+            if (data.data.code === 0) {
+              let channleInfo = data.data.data;
+              console.log(channleInfo)
+              typeof cb == "function" && cb(channleInfo)
+            }
+
+          }, err => {
+            console.log(err)
+          }, params)
+         
         }
       })
     }

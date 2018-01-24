@@ -1,6 +1,5 @@
 // pages/channel.js
-import * as http from '../../utils/http.js'
-import api from '../../utils/api.js'
+
 var appInstance = getApp()
 //获取应用实例
 const app = getApp()
@@ -10,30 +9,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-    channleInfo:{}
+    channelInfo:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-    let params = appInstance.globalData.userInfo;
-    http.get(api.channel_bind_user, data => {
-      console.log(data.data)
-      if(data.data.code === 0){
-        let channleInfo = data.data.data;
-        console.log(channleInfo)
-        this.setData({ channleInfo: channleInfo})
-      }
-     
-
-
-    }, err => {
-      console.log(err)
-    }, params)
-
-
+  
+    let that = this;
+    appInstance.getUserInfo(data=>{
+      console.log('渠道',JSON.stringify(data))
+      that.setData({
+        channelInfo: data
+      })
+    })
+ 
   },
   /**
    * 用户点击右上角分享
@@ -41,7 +32,7 @@ Page({
   onShareAppMessage: function (res) {
     let that = this;
     return {
-      title: that.data.channleInfo.channelName,
+      title: that.data.channelInfo.channelName,
       path: '/pages/channel/channel?channelId=1',
       success: function (res) {
         // 转发成功

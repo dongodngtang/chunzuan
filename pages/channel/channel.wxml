@@ -2,18 +2,18 @@
 <view>
 
 <view class='channel'>
-<image class='avatar' src="{{channleInfo.headImg}}"></image>
+<image class='avatar' src="{{channelInfo.headImg}}"></image>
 
 <view style="flex:1;">
   <view class='item'>
-  <text class='txt-name'>名称: {{channleInfo.channelName}}</text>
+  <text class='txt-name'>名称: {{channelInfo.channelName}}</text>
   </view>
  
   <view class='item'>
-  <text class='txt-name'>地址: {{channleInfo.address}}</text>
+  <text class='txt-name'>地址: {{channelInfo.address}}</text>
   </view>
    <view class='item'>
-  <text class='txt-name'>电话: {{channleInfo.tel}}</text>
+  <text class='txt-name'>电话: {{channelInfo.tel}}</text>
   </view>
 
 </view>
