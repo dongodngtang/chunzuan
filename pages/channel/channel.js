@@ -10,8 +10,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    channleInfo:{},
-    json:'sdf'
+    channleInfo:{}
   },
 
   /**
@@ -40,8 +39,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function (res) {
+    let that = this;
     return {
-      title: '自定义转发标题',
+      title: that.data.channleInfo.channelName,
       path: '/pages/channel/channel?channelId=1',
       success: function (res) {
         // 转发成功
