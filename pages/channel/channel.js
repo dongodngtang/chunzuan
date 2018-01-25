@@ -19,7 +19,7 @@ Page({
   
     let that = this;
     appInstance.getUserInfo(data=>{
-      console.log('渠道',JSON.stringify(data))
+     
       that.setData({
         channelInfo: data
       })
@@ -45,5 +45,10 @@ Page({
   },
   btnShare: function (e) {
     this.onShareAppMessage(e);
+  },
+  tabCall:function(e){
+    wx.makePhoneCall({
+      'phoneNumber': channelInfo.tel
+    })
   }
 })
