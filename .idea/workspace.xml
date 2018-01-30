@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.js" afterPath="$PROJECT_DIR$/pages/channel/channel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxml" afterPath="$PROJECT_DIR$/pages/channel/channel.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/channel/channel.wxss" afterPath="$PROJECT_DIR$/pages/channel/channel.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index/index.js" afterPath="$PROJECT_DIR$/pages/index/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/servies.js" afterPath="$PROJECT_DIR$/utils/servies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/util.js" afterPath="$PROJECT_DIR$/utils/util.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,21 +21,30 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="126">
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding>
-                <marker date="1516874097000" expanded="true" signature="386:396" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="63:449" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="89:98" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="129:407" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="185:254" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="260:403" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="302:312" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="302:360" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="423:447" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
+      <file leaf-file-name="servies.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/servies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +105,25 @@
             <state relative-caret-position="72">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1516874097000" expanded="true" signature="3218:3244" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="1597:1636" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2327:2356" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2327:2368" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2397:2490" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2494:2527" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2551:2557" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2562:2591" ph="/** 生命周期函数--监听页面显示 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2614:2620" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2625:2654" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2677:2683" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2688:2717" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2742:2748" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="2753:2788" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2833:2861" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2902:2926" ph="/** 用户点击右上角分享 ...*/" />
+                <marker date="1517298263000" expanded="true" signature="2960:2966" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="3264:3370" ph="{&quot;cut&quot;: cut...}" />
+                <marker date="1517298263000" expanded="true" signature="3408:3477" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
+                <marker date="1517298263000" expanded="true" signature="3637:3663" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -110,13 +139,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="channel.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="channel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="72">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <marker date="1516874097000" expanded="true" signature="817:820" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="83:890" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="207:209" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="862:883" ph="{&quot;phoneNumber&quot;: channelInfo.tel...}" />
+                <marker date="1517298263000" expanded="true" signature="862:888" ph="{...}" />
+                <marker date="1517298263000" expanded="true" signature="885:888" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -155,6 +188,7 @@
         <option value="$PROJECT_DIR$/pages/channel/channel.json" />
         <option value="$PROJECT_DIR$/pages/channel/channel.wxss" />
         <option value="$PROJECT_DIR$/pages/channel/channel.js" />
+        <option value="$PROJECT_DIR$/utils/servies.js" />
       </list>
     </option>
   </component>
@@ -165,8 +199,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="35" />
+    <option name="x" value="2150" />
+    <option name="y" value="67" />
     <option name="width" value="1820" />
     <option name="height" value="902" />
   </component>
@@ -188,6 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,8 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,7 +482,8 @@
       <workItem from="1516765142157" duration="88000" />
       <workItem from="1516765437155" duration="43000" />
       <workItem from="1516780249131" duration="45000" />
-      <workItem from="1516874299151" duration="2000" />
+      <workItem from="1516874299151" duration="971000" />
+      <workItem from="1517298277785" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -611,14 +646,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516780278436</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="添加渠道商图片">
+      <created>1516874316182</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1516874316182</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26195000" />
+    <option name="totallyTimeSpent" value="27167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="35" width="1820" height="902" extended-state="0" />
+    <frame x="2150" y="67" width="1820" height="902" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22401334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -696,19 +738,18 @@
     <MESSAGE value="优化" />
     <MESSAGE value="转发" />
     <MESSAGE value="数据加载路由跳转" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据加载路由跳转" />
+    <MESSAGE value="添加渠道商图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加渠道商图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/index/main.wxss" />
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,21 +876,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/main.wxml" />
     <entry file="file://$PROJECT_DIR$/pages/index/main.wxss" />
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1516874097000" expanded="true" signature="386:396" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +888,25 @@
         <state relative-caret-position="72">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1516874097000" expanded="true" signature="3218:3244" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="1597:1636" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2327:2356" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2327:2368" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2397:2490" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2494:2527" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2551:2557" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2562:2591" ph="/** 生命周期函数--监听页面显示 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2614:2620" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2625:2654" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2677:2683" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2688:2717" ph="/** 生命周期函数--监听页面卸载 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2742:2748" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="2753:2788" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2833:2861" ph="/** 页面上拉触底事件的处理函数 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2902:2926" ph="/** 用户点击右上角分享 ...*/" />
+            <marker date="1517298263000" expanded="true" signature="2960:2966" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="3264:3370" ph="{&quot;cut&quot;: cut...}" />
+            <marker date="1517298263000" expanded="true" signature="3408:3477" ph="{&quot;content-type&quot;: 'application/x-www-form-urlencoded'...}" />
+            <marker date="1517298263000" expanded="true" signature="3637:3663" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -915,10 +961,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <marker date="1516874097000" expanded="true" signature="817:820" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="83:890" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="207:209" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="862:883" ph="{&quot;phoneNumber&quot;: channelInfo.tel...}" />
+            <marker date="1517298263000" expanded="true" signature="862:888" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="885:888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <marker date="1517298263000" expanded="true" signature="63:449" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="89:98" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="129:407" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="185:254" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="260:403" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="302:312" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="302:360" ph="{...}" />
+            <marker date="1517298263000" expanded="true" signature="423:447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/servies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

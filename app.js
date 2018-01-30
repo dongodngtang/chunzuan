@@ -3,9 +3,7 @@ import { getLoginInfo} from './utils/servies.js'
 
 App({
   onLaunch: function () {
-    this.getUserInfo(user => {
-      console.log('用户信息：' + JSON.stringify(user))
-    })
+   
   },
   getUserInfo: function (cb) {
     var that = this

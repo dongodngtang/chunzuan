@@ -16,15 +16,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    const { channelId } = options;
     let that = this;
     appInstance.getUserInfo(data=>{
-     
       that.setData({
         channelInfo: data
       })
-    })
- 
+    }, channelId)
+
   },
   /**
    * 用户点击右上角分享
@@ -33,7 +32,7 @@ Page({
     let that = this;
     return {
       title: that.data.channelInfo.channelName,
-      path: '/pages/channel/channel?channelId=1',
+      path: `/pages/index/index?channelId=${that.data.channelInfo.id}`,
       success: function (res) {
         // 转发成功
       },
@@ -48,7 +47,7 @@ Page({
   },
   tabCall:function(e){
     wx.makePhoneCall({
-      'phoneNumber': channelInfo.tel
+      'phoneNumber': this.data.channelInfo.tel
     })
   }
 })

@@ -16,6 +16,9 @@ function formatNumber(n) {
   return n[1] ? n : '0' + n
 }
 
-module.exports = {
-  formatTime: formatTime
+export function strNotNull(str) {
+  if (str == undefined || str == null || str.length == 0)
+    return false;
+  else
+    return true;
 }

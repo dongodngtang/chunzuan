@@ -2,7 +2,7 @@ import api from './api.js'
 import * as http from './http.js'
 
 
-export function getLoginInfo(cb){
+export function getLoginInfo(cb,channelId){
   wx.login({
     success: function (loginCode) {
       console.log(loginCode)
@@ -15,14 +15,17 @@ export function getLoginInfo(cb){
             wxImg: avatarUrl,
             wxNickname: nickName,
             address: adr,
-            userCode: loginCode.code,
-            channelId:1
+            userCode: loginCode.code
           }
+          if (strNotNull(channelId)){
+            params.channelId = channelId;
+          }
+          
           http.get(api.channel_bind_user, data => {
             console.log(data.data)
             if (data.data.code === 0) {
               let channleInfo = data.data.data;
-              console.log(channleInfo)
+          
               typeof cb == "function" && cb(channleInfo)
             }
 
@@ -34,4 +37,11 @@ export function getLoginInfo(cb){
       })
     }
   })
+}
+
+export function strNotNull(str) {
+  if (str == undefined || str == null || str.length == 0)
+    return false;
+  else
+    return true;
 }

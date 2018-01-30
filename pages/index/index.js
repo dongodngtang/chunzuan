@@ -39,6 +39,23 @@ Page({
    */
   onLoad: function (options) {
     this.postPrice(this.data.value);
+
+    const {channelId} = options;
+
+    wx.showToast({
+      title: `channelId${channelId}`,
+      icon: '',
+      image: '',
+      duration: 4000,
+      mask: true,
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+
+    appInstance.getUserInfo(ret=>{
+      console.log('渠道商：',ret)
+    }, channelId)
   },
 
   bindHidden: function () {
@@ -50,7 +67,8 @@ Page({
   btnRelease: function () {
     let toChannel = appInstance.globalData.userInfo != null;
       wx.navigateTo({
-        url: toChannel?"../channel/channel":"../contact/contact"
+        url: toChannel ?
+          `../channel/channel?channelId=${appInstance.globalData.userInfo.id}`:"../contact/contact"
       })
       
   },
