@@ -18,6 +18,7 @@ const colors = ['D', 'E', 'F', 'G', 'H', 'I'];
 const claritys = ['IF', 'VVS1', 'VVS2', 'VS1', 'VS2'];
 const cuts = ['3EX'];
 var appInstance = getApp();
+import { strNotNull } from '../../utils/servies.js'
 
 Page({
 
@@ -31,7 +32,8 @@ Page({
     cuts: cuts,
     value: [2, 1, 2, 0],
     hidden: false,
-    price: ''
+    price: '',
+    channelId:''
   },
 
   /**
@@ -41,21 +43,11 @@ Page({
     this.postPrice(this.data.value);
 
     const {channelId} = options;
-
-    wx.showToast({
-      title: `channelId${channelId}`,
-      icon: '',
-      image: '',
-      duration: 4000,
-      mask: true,
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
+    appInstance.getUserInfo(ret => { }, channelId)
+    this.setData({
+      channelId
     })
-
-    appInstance.getUserInfo(ret=>{
-      console.log('渠道商：',ret)
-    }, channelId)
+   
   },
 
   bindHidden: function () {
@@ -65,11 +57,25 @@ Page({
     })
   },
   btnRelease: function () {
+
     let toChannel = appInstance.globalData.userInfo != null;
-      wx.navigateTo({
-        url: toChannel ?
-          `../channel/channel?channelId=${appInstance.globalData.userInfo.id}`:"../contact/contact"
+    let channelId = this.data.channelId;
+    if (strNotNull(channelId) || toChannel){
+      wx.showLoading({
+        title: '加载中...',
       })
+      appInstance.getUserInfo(ret => {
+        console.log('渠道商：', ret)
+        wx.navigateTo({
+          url:  `../channel/channel?channelId=${channelId}`
+        })
+        wx.hideLoading()
+      }, channelId)
+    }else{
+      wx.navigateTo({
+        url: "../contact/contact"
+      })
+    }
       
   },
   bindChange: function (e) {
