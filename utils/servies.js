@@ -30,7 +30,7 @@ export function getLoginInfo(cb,channelId){
             }
 
           }, err => {
-            console.log(err)
+            wx.showToast("加载失败")
           }, params)
          
         }

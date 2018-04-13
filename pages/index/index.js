@@ -43,6 +43,8 @@ Page({
     this.postPrice(this.data.value);
 
     const { channelId } = options;
+
+    appInstance.getUserInfo(ret => { }, channelId)
     this.setData({
       channelId
     })
@@ -61,20 +63,28 @@ Page({
     wx.showLoading({
       title: '加载中...',
     })
-    appInstance.getUserInfo(ret => {
-      console.log('渠道商：', ret)
-      if (ret === null) {
-        wx.navigateTo({
-          url: "../contact/contact"
-        })
-      } else {
-        wx.navigateTo({
-          url: `../channel/channel?channelId=${channelId}`
-        })
+      if(appInstance.globalData.userInfo != null){
+          wx.navigateTo({
+              url: `../channel/channel?channelId=${channelId}`
+          })
+          wx.hideLoading()
+      }else{
+          appInstance.getUserInfo(ret => {
+              console.log('渠道商：', ret)
+          if (ret === null) {
+              wx.navigateTo({
+                  url: "../contact/contact"
+              })
+          } else {
+              wx.navigateTo({
+                  url: `../channel/channel?channelId=${channelId}`
+              })
+          }
+
+          wx.hideLoading()
+      }, channelId)
       }
 
-      wx.hideLoading()
-    }, channelId)
 
 
 

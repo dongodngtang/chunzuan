@@ -61,7 +61,11 @@ Page({
      * 用户点击右上角分享
      */
     onShareAppMessage: function () {
-
+      return {
+        title: "全球纯钻行情",
+        path: `/pages/index/index`,
+        imageUrl:"/asserts/home.jpg"
+      }
     },
     previewImage: function (e) {
         var current = e.target.dataset.src+`?${new Date()}`;

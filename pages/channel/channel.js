@@ -36,7 +36,8 @@ Page({
       },
       fail: function (res) {
         // 转发失败
-      }
+      },
+      imageUrl: "/asserts/home.jpg"
     }
 
   },
