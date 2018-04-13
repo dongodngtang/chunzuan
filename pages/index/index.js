@@ -31,7 +31,7 @@ Page({
     claritys: claritys,
     cuts: cuts,
     value: [2, 1, 2, 0],
-    hidden: false,
+    hidden: true,
     price: '',
     channelId: ''
   },

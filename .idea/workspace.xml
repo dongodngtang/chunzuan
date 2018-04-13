@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="886da18a-c2b2-4662-b8c4-cd5355dee690" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/channel/channel.js" afterPath="$PROJECT_DIR$/pages/channel/channel.js" />
-      <change beforePath="$PROJECT_DIR$/pages/contact/contact.js" afterPath="$PROJECT_DIR$/pages/contact/contact.js" />
+      <change beforePath="$PROJECT_DIR$/asserts/home.jpeg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" afterPath="$PROJECT_DIR$/pages/index/index.js" />
       <change beforePath="$PROJECT_DIR$/utils/servies.js" afterPath="$PROJECT_DIR$/utils/servies.js" />
     </list>
@@ -72,8 +71,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            <state relative-caret-position="277">
+              <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -103,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -446,7 +445,7 @@
       <workItem from="1517298277785" duration="30000" />
       <workItem from="1517299612694" duration="930000" />
       <workItem from="1523584242491" duration="478000" />
-      <workItem from="1523585556287" duration="156000" />
+      <workItem from="1523585556287" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -637,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523585698602</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="分享该为首页图23">
+      <created>1523585719698</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1523585719698</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28758000" />
+    <option name="totallyTimeSpent" value="29369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="40" width="1742" height="883" extended-state="0" />
@@ -702,7 +708,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据准备" />
     <MESSAGE value="picker" />
     <MESSAGE value="发布按钮" />
     <MESSAGE value="显示隐藏" />
@@ -727,7 +732,8 @@
     <MESSAGE value="纯钻调整" />
     <MESSAGE value="逻辑调整" />
     <MESSAGE value="分享该为首页图" />
-    <option name="LAST_COMMIT_MESSAGE" value="分享该为首页图" />
+    <MESSAGE value="分享该为首页图23" />
+    <option name="LAST_COMMIT_MESSAGE" value="分享该为首页图23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,7 +937,7 @@
     <entry file="file://$PROJECT_DIR$/pages/channel/channel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -946,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="277">
+          <caret line="75" column="43" lean-forward="true" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
           <folding />
         </state>
       </provider>
