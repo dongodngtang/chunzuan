@@ -33,7 +33,7 @@ Page({
     value: [2, 1, 2, 0],
     hidden: false,
     price: '',
-    channelId:''
+    channelId: ''
   },
 
   /**
@@ -42,12 +42,11 @@ Page({
   onLoad: function (options) {
     this.postPrice(this.data.value);
 
-    const {channelId} = options;
-    appInstance.getUserInfo(ret => { }, channelId)
+    const { channelId } = options;
     this.setData({
       channelId
     })
-   
+
   },
 
   bindHidden: function () {
@@ -58,25 +57,27 @@ Page({
   },
   btnRelease: function () {
 
-    let toChannel = appInstance.globalData.userInfo != null;
     let channelId = this.data.channelId;
-    if (strNotNull(channelId) || toChannel){
-      wx.showLoading({
-        title: '加载中...',
-      })
-      appInstance.getUserInfo(ret => {
-        console.log('渠道商：', ret)
+    wx.showLoading({
+      title: '加载中...',
+    })
+    appInstance.getUserInfo(ret => {
+      console.log('渠道商：', ret)
+      if (ret === null) {
         wx.navigateTo({
-          url:  `../channel/channel?channelId=${channelId}`
+          url: "../contact/contact"
         })
-        wx.hideLoading()
-      }, channelId)
-    }else{
-      wx.navigateTo({
-        url: "../contact/contact"
-      })
-    }
-      
+      } else {
+        wx.navigateTo({
+          url: `../channel/channel?channelId=${channelId}`
+        })
+      }
+
+      wx.hideLoading()
+    }, channelId)
+
+
+
   },
   bindChange: function (e) {
     console.log(e.detail.value);

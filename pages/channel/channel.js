@@ -9,7 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    channelInfo:{}
+    channelInfo: {}
   },
 
   /**
@@ -17,12 +17,10 @@ Page({
    */
   onLoad: function (options) {
     const { channelId } = options;
-    let that = this;
-    appInstance.getUserInfo(data=>{
-      that.setData({
-        channelInfo: data
-      })
-    }, channelId)
+    this.setData({ channelInfo: appInstance.globalData.userInfo})
+
+    console.log('qudaopage', appInstance.globalData.userInfo)
+    
 
   },
   /**
