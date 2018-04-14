@@ -43,8 +43,6 @@ Page({
     this.postPrice(this.data.value);
 
     const { channelId } = options;
-
-    appInstance.getUserInfo(ret => { }, channelId)
     this.setData({
       channelId
     })
