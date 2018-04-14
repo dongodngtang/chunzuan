@@ -11,9 +11,12 @@ export function getLoginInfo(cb,channelId){
           const { userInfo } = res;
           const { city, country, province, avatarUrl, nickName } = userInfo;
           let adr = country + ' ' + province + ' ' + city;
+          console.log(userInfo)
+
+          let nick = nickName.replace(/\uD83C[\uDF00-\uDFFF]|\uD83D[\uDC00-\uDE4F]/g, "");
           let params = {
             wxImg: avatarUrl,
-            wxNickname: nickName,
+            wxNickname: nick,
             address: adr,
             userCode: loginCode.code
           }
