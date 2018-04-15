@@ -5,7 +5,7 @@ App({
   onLaunch: function () {
    
   },
-  getUserInfo: function (cb) {
+  getUserInfo: function (cb, channelId) {
     var that = this
     if (this.globalData.userInfo) {
       typeof cb == "function" && cb(this.globalData.userInfo)
@@ -14,7 +14,7 @@ App({
       getLoginInfo(data=>{
         typeof cb == "function" && cb(data)
         that.globalData.userInfo = data;
-      })
+      }, channelId)
     }
   },
   globalData: {
