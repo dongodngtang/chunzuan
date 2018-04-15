@@ -27,10 +27,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function (res) {
-    let that = this;
+    const { channelName,id } = appInstance.globalData.userInfo;
     return {
-      title: that.data.channelInfo.channelName,
-      path: `/pages/index/index?channelId=${that.data.channelInfo.id}`,
+      title: channelName,
+      path: `/pages/index/index?channelId=${id}`,
       success: function (res) {
         // 转发成功
       },

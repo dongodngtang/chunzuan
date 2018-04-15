@@ -63,7 +63,7 @@ Page({
     onShareAppMessage: function () {
       return {
         title: "全球纯钻行情",
-        path: `/pages/index/index`,
+        path: `/pages/index/index?channelId=23`,
         imageUrl:"/asserts/home.jpg"
       }
     },

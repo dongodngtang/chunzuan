@@ -20,7 +20,7 @@ export function getLoginInfo(cb,channelId){
             address: adr,
             userCode: loginCode.code
           }
-          if (strNotNull(channelId)){
+          if (channelId != undefined){
             params.channelId = channelId;
           }
           

@@ -43,6 +43,8 @@ Page({
     this.postPrice(this.data.value);
 
     const { channelId } = options;
+    console.log('渠道id:',channelId)
+    if(channelId != undefined)
     this.setData({
       channelId
     })
