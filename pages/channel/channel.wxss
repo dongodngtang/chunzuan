@@ -31,9 +31,11 @@
 }
 
 .btn-share{
-  width: 90%;
+  width: 100%;
   background: #ea576a;
-  margin-top: 40px;
   color: white;
-  border-radius: 2px;
+  border-radius: 0;
+  position: fixed;
+  bottom: 0;
 }
+

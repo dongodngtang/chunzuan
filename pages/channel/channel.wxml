@@ -1,26 +1,8 @@
 <!--pages/channel.wxml-->
 <view>
 
-<view class='channel'>
-<image class='avatar' src="{{channelInfo.headImg}}"></image>
+<image style="width:100%;margin-bottom:60px;" mode="widthFix" src="{{channelInfo.detailImg}}"/>
 
-<view style="flex:1;">
-  <view class='item'>
-  <text class='txt-name'>名称: {{channelInfo.channelName}}</text>
-  </view>
- 
-  <view class='item'>
-  <text class='txt-name'>地址: {{channelInfo.address}}</text>
-  </view>
-   <view class='item'  bindtap="tabCall">
-  <text class='txt-name'>电话: <text 
-  style="color:#438EE6">{{channelInfo.tel}}</text> </text>
-  </view>
-
-</view>
-</view>
-  
   <button class="btn-share" open-type="share">分享</button>
 
-<image style="width:100%;margin-top:20px" mode="widthFix" src="{{channelInfo.detailImg}}"/>
 </view>
