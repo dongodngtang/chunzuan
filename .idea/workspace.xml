@@ -461,7 +461,7 @@
       <workItem from="1517299612694" duration="930000" />
       <workItem from="1523584242491" duration="478000" />
       <workItem from="1523585556287" duration="767000" />
-      <workItem from="1523789766156" duration="44000" />
+      <workItem from="1523789766156" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="纯钻头部UI">
       <created>1501129014661</created>
@@ -663,7 +663,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29413000" />
+    <option name="totallyTimeSpent" value="30006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />

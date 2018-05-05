@@ -20,6 +20,8 @@ export function getLoginInfo(cb,channelId){
             address: adr,
             userCode: loginCode.code
           }
+
+          console.log('请求渠道id=',channelId)
           if (channelId != undefined){
             params.channelId = channelId;
           }
